@@ -18,4 +18,4 @@ Next, create a build directory to build from CMake, set up the release, then try
   setupATLAS
   asetup AnalysisBase,2.6.1
   cmake ../xAODAnaHelpersCMake
-  make
+  make install DESTDIR=../install
